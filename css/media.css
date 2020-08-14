@@ -1,0 +1,169 @@
+
+@media (max-width: 1255px){
+	.reviews-slider .slick-list {
+		margin: 0;
+	}
+	.reviews-slider .slick-slide {
+		margin: 0;
+	}
+	.reviews-box {
+		box-shadow: none;
+	}
+}
+
+@media (max-width: 1225px){
+	.price__items {
+		flex-wrap: wrap;
+	}
+	.price-item {
+		max-width: 36%;
+		margin-bottom: 40px;
+	}
+	.price-item__number {
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+}
+
+@media (max-width: 1140px){
+	.top-info {
+		max-width: 400px;
+	}
+}
+@media (max-width: 1115px){
+	.reviews-slider {
+		margin-top: 60px;
+	}
+	.reviews-box {
+		margin: 0 auto;
+		width: 525px;
+	}
+		  
+}
+
+@media (max-width: 992px){
+	.menu__list {
+		display: none;
+		position: absolute;
+		top: 87px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		border-top: 1px solid #000;
+		z-index: 3;
+	}
+	.menu__list li {
+		margin-left: 0;
+	}
+	.menu__list a{
+		display: block;
+		padding: 10px 0;
+		border-bottom: 1px solid #000;
+		background-color: #fff;
+	}
+	.btn__menu {
+		display: block;
+	}
+	.top-info {
+		max-width: 325px;
+		margin-right: 40px;
+	}
+	.partner-logo {
+		flex-wrap: wrap;
+	  }
+	.footer__inner {
+		flex-wrap: wrap;
+	}  
+	.footer-col__logo {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 870px){
+	.top-images__box img{
+		width: 300px;
+	}
+	.top-images__circle {
+		width: 165px;
+		height: 165px;
+		top: -25px;
+		right: -45px;
+  	}  
+}
+@media (max-width: 745px){
+	.top,
+	.price,
+	.reviews {
+		padding-top: 50px;
+		padding-bottom: 80px;
+  }
+  .top-info__title {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.top__inner {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.top-info {
+		max-width: 340px;
+		margin-right: 0;
+		margin-bottom: 75px;
+	}	
+	.price-item {
+		max-width: 100%;
+	  }
+	.footer-form {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.footer__inner {
+		justify-content: flex-start;
+	}
+	.partner {
+		padding: 50px 0;
+  	}
+}
+@media (max-width: 570px){
+	.reviews-box {
+		display: block;
+	}
+	  .reviews-box__images {
+		width: 100%;
+		min-height: 200px;
+   }
+  .reviews-box__content{
+		width: 100%;
+		padding: 20px;
+   }
+}
+@media (max-width: 410px){
+	.top-images__circle {
+		right: -5px;
+	}
+	.title {
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.price__descr {
+		margin: 35px auto 50px;
+	}
+	.price-item {
+		padding: 0 20px 60px;
+	}
+	.footer-menu {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	  .footer-form {
+		margin-top: 0px;
+  	}
+}
+@media (min-width: 992px){
+	.menu__list {
+		display: flex !important;
+	}
+	
+}
